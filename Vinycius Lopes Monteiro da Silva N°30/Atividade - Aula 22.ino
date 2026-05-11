@@ -1,10 +1,9 @@
 //  Atividade - Aula 22: Introdução ao Arduino no Tinkercad
-//  AlunoS: Vinycius Lopes, Vinicius dos Santos, Tainá Silveira 
+//  Alunos: Vinycius Lopes, Vinicius dos Santos, Tainá Silveira 
 //  Disciplina: Desenvolvimento de Sistemas - SENAI
 
 // Declaração das portas dos LEDs
 // Cada variável armazena o número da porta digital onde o LED está conectado.
-// Porta digital = pino físico do Arduino que envia sinal elétrico (0V ou 5V).
 
 int portLed1 = 10;  // LED 1 - vermelho
 int portLed2 = 9;   // LED 2 - amarelo
@@ -14,7 +13,6 @@ int portLed3 = 8;   // LED 3 - verde
 int velocidadeLenta  = 1000;  // 1 segundo  (pisca devagar)
 int velocidadeMedia  = 500;   // 0,5 segundo (pisca médio)
 int velocidadeRapida = 150;   // 0,15 segundo (pisca rápido)
-
 
 //  void setup()
 //  Executado UMA vez quando o Arduino é ligado ou resetado.
@@ -46,7 +44,7 @@ void loop()
   digitalWrite(portLed1, LOW);    // Apaga LED 1
   delay(velocidadeLenta);         // Espera 1000ms
 
-  //  PARTE 2 - LED 2 piscando em velocidade MÉDIA (500ms)
+  // LED 2 piscando em velocidade MÉDIA (500ms)
   
   digitalWrite(portLed2, HIGH);   // Acende LED 2
   delay(velocidadeMedia);         // Espera 500ms
