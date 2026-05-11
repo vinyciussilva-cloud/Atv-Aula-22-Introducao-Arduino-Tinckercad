@@ -1,64 +1,79 @@
-Projeto Arduino no Tinkercad
+# Introdução ao Arduino no Tinkercad
 
 ## Integrantes
-
-* Tainá
-* Vinicius Ribeiro
-* Vinycius Lopes
+- Tainá  
+- Vinicius Ribeiro  
+- Vinycius Lopes  
 
 ---
 
-## Sobre o Projeto
+## Sobre a Atividade
 
-Este projeto foi desenvolvido no Tinkercad utilizando Arduino Uno para aprender conceitos básicos de programação embarcada e eletrônica.
+Este projeto foi desenvolvido no Tinkercad utilizando Arduino Uno com o objetivo de aprender conceitos básicos de programação embarcada e eletrônica.
 
-O circuito utiliza LEDs e botão para realizar ações como acender, apagar e alternar luzes através da programação em C/C++.
+A prática demonstrou como a programação pode controlar componentes eletrônicos através de comandos simples em C/C++.
+
+---
+
+## Objetivos
+
+- Acender e apagar um LED;
+- Utilizar temporização com `delay()`;
+- Entender o funcionamento das portas digitais do Arduino;
+- Relacionar programação com eletrônica básica.
 
 ---
 
 ## Componentes Utilizados
 
-* Arduino Uno
-* Protoboard
-* Botão
-* LEDs
-* Resistores
-* Jumpers
+- Arduino Uno  
+- LED  
+- Resistor  
+- Protoboard  
+- Jumpers  
 
 ---
 
 ## Funcionamento
 
-O projeto realiza as seguintes funções:
+O circuito faz o LED piscar continuamente utilizando comandos básicos do Arduino.
 
-* Acende o LED ao pressionar o botão;
-* Apaga o LED quando o botão não está pressionado;
-* Alterna entre dois LEDs;
-* Utiliza tempo de espera com `delay()`.
+Também foram realizados testes com:
+- Alteração da velocidade do LED;
+- Diferentes tempos de piscagem;
+- Sequência de iluminação utilizando mais LEDs.
 
 ---
 
 ## Principais Comandos
 
-* `pinMode()` → define entrada ou saída;
-* `digitalRead()` → lê o botão;
-* `digitalWrite()` → liga ou desliga LED;
-* `if` → cria condições;
-* `delay()` → cria pausa no sistema;
-* `HIGH` → ligado;
-* `LOW` → desligado.
+### `pinMode()`
+Define se o pino será entrada ou saída.
+
+### `digitalWrite()`
+Liga ou desliga o LED.
+
+### `delay()`
+Cria uma pausa no programa.
+
+### `HIGH`
+Representa sinal ligado.
+
+### `LOW`
+Representa sinal desligado.
 
 ---
 
 ## Competências Desenvolvidas
 
-* Lógica de programação;
-* Programação com Arduino;
-* Eletrônica básica;
-* Integração entre hardware e software.
+- Lógica de programação;
+- Programação embarcada;
+- Simulação de circuitos eletrônicos;
+- Interpretação de código;
+- Integração entre hardware e software.
 
 ---
 
 ## Conclusão
 
-A atividade ajudou a entender como o Arduino controla componentes eletrônicos através da programação, mostrando na prática conceitos básicos de automação e sistemas embarcados.
+A atividade ajudou a compreender o funcionamento básico do Arduino e mostrou como a programação pode controlar componentes eletrônicos em sistemas automatizados.
