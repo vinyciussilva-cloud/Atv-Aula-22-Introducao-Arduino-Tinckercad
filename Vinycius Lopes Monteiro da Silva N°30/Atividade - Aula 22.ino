@@ -13,11 +13,11 @@ int velocidadeRapida = 150;   // 0,15 segundo (pisca rápido)
 //  void setup()
 //  Executado UMA vez quando o Arduino é ligado ou resetado.
 //  Aqui configuramos as portas como saída (OUTPUT),
-//  ou seja, o Arduino vai ENVIAR sinal elétrico por elas.
+//  ou seja, o Arduino vai enviar sinal elétrico por elas.
 
 void setup()
 {
-  // pinMode(pino, modo)
+  // pinMode (pino, modo)
   // Define se a porta vai enviar (OUTPUT) ou receber (INPUT) sinal.
   // Como controlamos LEDs, usamos OUTPUT em todas.
   pinMode(portLed1, OUTPUT);
