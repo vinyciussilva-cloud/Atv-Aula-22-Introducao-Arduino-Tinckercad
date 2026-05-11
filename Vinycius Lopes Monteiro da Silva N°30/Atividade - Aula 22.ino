@@ -1,9 +1,5 @@
 //  Atividade - Aula 22: Introdução ao Arduino no Tinkercad
 //  Alunos: Vinycius Lopes, Vinicius dos Santos, Tainá Silveira 
-//  Disciplina: Desenvolvimento de Sistemas - SENAI
-
-// Declaração das portas dos LEDs
-// Cada variável armazena o número da porta digital onde o LED está conectado.
 
 int portLed1 = 10;  // LED 1 - vermelho
 int portLed2 = 9;   // LED 2 - amarelo
